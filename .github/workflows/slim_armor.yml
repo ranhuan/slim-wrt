@@ -4,6 +4,7 @@ name: Build with default profile - "slim"
 
 
 on:
+  workflow_dispatch:
   release:
     types: created
   push:
